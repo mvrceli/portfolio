@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat.ttf') format('truetype');
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #CDC5B4;
+    font-family: Montserrat;
+}
+
+
+.wrapper {
+    width: 100%;
+    padding-top: 20px
+}
+
+
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-size: 50px;
+    color: #85756E;
+    line-height: 44px;
+}
+
+.img-info p {
+    padding: 0px 30px 20px;
+    font-size: 16px;
+    color: #85756E;
+    line-height: 24px;
+}
+
+.vid-sup {
+    width: 100%;
+    border: 3px solid #551B14; /* Border style and color */
+    max-width: 100%; /* Ensure the video stays within its container */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    
+}
+
+.intro {
+    text-align: center;
+    color: #6D3D14;
+    width: 100%;
+    
+}
+
+.intro h3 {
+    margin-right: 100px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    
+}
+.git {
+    width: auto;
+    height: 50px;
+}
+.linked {
+    width: auto;
+    height: 50px;
+}
+
+.desc {
+    margin-top: 10px;
+
+}
+.desc p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #704a2a
+}
+.desc h3 {
+    padding-left: 20px;
+    color: #6D3D14;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .img-info h2 {
+        padding: 20px 0px 0px;
+    }
+    
+    .img-info p {
+        padding: 20px 0px 0px;
+
+    } 
+    .vid-sup {
+        padding-top: 30px;
+        border: 3px solid #551B14; /* Border style and color */
+        padding: 0px; /* Padding around the video */
+        max-width: 100%; /* Ensure the video stays within its container */
+        box-sizing: border-box; /* Include padding and border in element's total width */
+    }
+
+    .intro {
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .git {
+        width: auto;
+        height: 50px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    .linked {
+        width: auto;
+        height: 50px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    .desc {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .intro {
+        text-align: left;
+        padding-left: 100px;
+        padding-top: 50px;
+        width: 80%;
+    }
+    
+
+ 
+
+    .wrapper {
+        width: 1000px;
+    }
+
+    .img-info {
+        width: 50%;
+        float: right;
+    }
+
+    .img-info h2 {
+        padding: 20px 0px 0px 30px;
+        margin-top: 20px;
+    }
+    
+    .img-info p {
+        padding: 20px 0px 0px 30px;
+
+    } 
+    .vid-sup {
+        margin-top: 20px;
+        width: 50%;
+
+        float: left;
+    }
+
+    .divider {
+        padding: 170px;
+    }
+
+    .intro_desc {
+        display: flex;
+    }
+
+    .desc {
+        padding-top: 60px;
+        padding-right: 100px;
+        width: 90%;
+    }
+    .circle {
+        height: 24px;
+        width: 24px;
+        border-radius: 24px;
+        background-color: black;
+        position: fixed; 
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 99999999; /* so that it stays on top of all other elements */
+      }
+}
+
