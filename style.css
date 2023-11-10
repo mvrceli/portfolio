@@ -75,6 +75,10 @@
 }
 .desc p {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
     padding-left: 10px;
     padding-right: 10px;
     color: #704a2a
@@ -100,10 +104,10 @@
     } 
     .vid-sup {
         padding-top: 30px;
-        border: 3px solid #551B14; /* Border style and color */
-        padding: 0px; /* Padding around the video */
-        max-width: 100%; /* Ensure the video stays within its container */
-        box-sizing: border-box; /* Include padding and border in element's total width */
+        border: 3px solid #551B14; 
+        padding: 0px;
+        max-width: 100%; 
+        box-sizing: border-box;
     }
 
     .intro {
@@ -177,8 +181,8 @@
 
     .desc {
         display: flex;
-        justify-content: center; /* Center content horizontally */
-        align-items: center; /* Center content vertically */
+        justify-content: center;
+        align-items: center; 
         flex-wrap: wrap;
         padding-top: 60px;
         padding-right: 100px;
@@ -193,7 +197,7 @@
         top: 0;
         left: 0;
         pointer-events: none;
-        z-index: 99999999; /* so that it stays on top of all other elements */
+        z-index: 99999999; 
       }
 }
 
