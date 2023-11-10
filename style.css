@@ -176,6 +176,10 @@
     }
 
     .desc {
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        flex-wrap: wrap;
         padding-top: 60px;
         padding-right: 100px;
         width: 90%;
